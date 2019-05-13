@@ -17,4 +17,5 @@ Pod::Spec.new do |s|
   s.source_files        = 'RNFirebase/**/*.{h,m}'
   s.dependency          'React'
   s.dependency          'Firebase/Core'
+  s.static_framework    = true
 end
